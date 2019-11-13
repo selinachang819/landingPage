@@ -31,7 +31,7 @@ function App() {
         </div>
         
       </div>
-      <div id="opposite">Conguatulations!!!</div>
+      <div id="opposite">Congratulations!!!</div>
       </div>
   </div>
   
