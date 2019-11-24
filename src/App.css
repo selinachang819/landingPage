@@ -1,14 +1,81 @@
 .App {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-
+  text-align: left;
+  
+}
+a{
+  position: absolute;
+  top: 2pc;
+  left: 1pc;
+  font-family:'Roboto', sans-serif;
+  color:#211506;
+  
+}
+#title{
+  font-family: 'Anton', sans-serif;
+  color: #e8552c;
+  position: absolute;
+  top: 2pc;
+  right: 3pc;
+  font-size: 50px;
+}
+.typewriter {
+  font-family: Courier, monospace;
+display: inline-block;
 }
 
-.mainImage{
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+ animation: typing 3s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  border-right: 4px solid #ffbc30;
+  box-sizing: border-box;
+  font-family:'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: #ffbc30; 
+  }
+}
+
+.description{
+  font-family:'Roboto', sans-serif;
+  text-align: right;
+  position: absolute;
+  top: 15pc;
+  right: 3.5pc;
+  font-size: 24px;}
+img{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0%;
+}
+
+button{
+  background-color: #ff873d;
+  border: none;
+  font-size: 30px;
+  font-family: 'Anton',sans-serif;
+  border-radius: 2pc;
+  padding: 1pc;
+  margin-top: 2pc;
+}
+/* .mainImage{
   width: 100%;
   }
 .swipeUP{
@@ -88,4 +155,4 @@ button{
 #opposite{
   font-size: 30px;
   font-weight: 500;
-}
+} */
